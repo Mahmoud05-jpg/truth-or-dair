@@ -1,0 +1,61 @@
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #8e44ad, #3498db);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        input, button {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            margin: 1rem 0;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #result, #challenge, #punishment {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        #cantDoBtn, #doneBtn {
+            background-color: #e74c3c;
+        }
+        #cantDoBtn:hover, #doneBtn:hover {
+            background-color: #c0392b;
+        }
+        table {
+            margin-top: 1rem;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 0.5rem;
+            text-align: center;
+        }
+    </style>
